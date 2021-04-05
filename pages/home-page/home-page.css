@@ -1,0 +1,52 @@
+@import url("../../styles.css");
+
+div.main {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+div.main > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div.profile-picture-container {
+    margin: 0 1rem;
+}
+
+img.profile-picture {
+    border-radius: 50%;
+    border-width: 1rem;
+    border-style: solid;
+    border-color: var(--primary-color);
+    /* box-shadow:
+        1rem 0rem 1rem 1rem #ffffff11     ,
+        0rem 1rem 1rem 1rem #ffffff11,
+        -1rem 0rem 1rem 1rem #ffffff11,
+        0rem -1rem 1rem 1rem #ffffff11; */
+}
+
+div.profile-description {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+div.profile-description > div {
+    margin-bottom: 1rem;
+}
+
+div.profile-description span,
+div.profile-description b {
+    font-size: 2.5rem;
+}
+
+div.profile-description span > b {
+    margin-right: 0.5rem;
+    color: var(--quaternary-color);
+}

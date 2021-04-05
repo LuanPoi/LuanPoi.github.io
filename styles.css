@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #2D3A54;
+    --secondary-color: #5A4894;
+    --tertiary-color: #A950A1;
+    --quaternary-color:#FF7CAE;
+    font-family: "Roboto", Arial;
+    font-size: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 2rem;
+}
+
+
+
+div.page-container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    /* background-image: linear-gradient(
+        330deg,
+        var(--primary-color) 0%,
+        var(--secondary-color) 33%,
+        var(--tertiary-color) 80%,
+        var(--quaternary-color) 100%
+    ); */
+    background-image: linear-gradient(
+        106.4deg,
+        rgba(255,104,192,1) 11.1%,
+        rgba(104,84,249,1) 81.3%
+    );
+}
+
+div.card-container {
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+    background-color: #FFFFFF33;
+    background-color: rgba(45, 58, 84, 0.6);
+    border-radius: 2rem;
+}
